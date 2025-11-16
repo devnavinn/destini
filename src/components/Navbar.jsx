@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'  // Import Link
 
 const Navbar = () => {
     return (
-        <header className='px-5'>
-            <nav className='flex  justify-between items-center'>
-                <img src="/logo.png" alt="Logo" className='w-14 ' />
+        <header className='px-6'>
+            <nav className='flex justify-between items-center'>
+                <Link to="/">  {/* Link wraps the logo */}
+                    <img src="/logo.png" alt="Logo" className='w-12' />
+                </Link>
             </nav>
         </header>
     )
