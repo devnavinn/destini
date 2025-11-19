@@ -25,10 +25,10 @@ const Footer = () => {
                 </div>
             </div>
             <div className='text-center mt-4 space-x-6'>
-                <Link to="/privacy-policy" className="hover:underline">
+                <Link to="/privacy" className="hover:underline">
                     Privacy Policy
                 </Link>
-                <Link to="/terms-conditions" className="hover:underline">
+                <Link to="/terms" className="hover:underline">
                     Terms & Conditions
                 </Link>
             </div>
